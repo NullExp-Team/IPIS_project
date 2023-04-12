@@ -1,0 +1,68 @@
+<mxfile host="65bd71144e" pages="1">
+    <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+        <mxGraphModel dx="874" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="macZc3DusFHGocfkwywF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="macZc3DusFHGocfkwywF-1" target="macZc3DusFHGocfkwywF-11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="630"/>
+                            <mxPoint x="330" y="630"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="macZc3DusFHGocfkwywF-1" target="macZc3DusFHGocfkwywF-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="630"/>
+                            <mxPoint x="260" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="600" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-5" value="Ввод ID пользователя" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="500" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-6" value="Сканирование штрих-кода " style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="640" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="macZc3DusFHGocfkwywF-11" target="macZc3DusFHGocfkwywF-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="482" y="600"/>
+                            <mxPoint x="570" y="600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-25" value="&quot;include&quot;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="macZc3DusFHGocfkwywF-17" vertex="1" connectable="0">
+                    <mxGeometry x="0.0925" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-11" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="macZc3DusFHGocfkwywF-11" target="macZc3DusFHGocfkwywF-6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="720" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="541" y="650"/>
+                            <mxPoint x="541" y="680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-24" value="&quot;include&quot;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="macZc3DusFHGocfkwywF-18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4018" y="3" relative="1" as="geometry">
+                        <mxPoint x="13" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-11" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="590" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="macZc3DusFHGocfkwywF-14" value="Просмотр&lt;br&gt;каталога книг" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="301" y="720" width="124.44" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
